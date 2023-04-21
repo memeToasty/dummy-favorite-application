@@ -11,7 +11,7 @@ I have not yet tested if this exact setup works with actual streetpasses, but as
 - [devkitARM](https://devkitpro.org/wiki/Getting_Started)
 - [`makerom`](https://github.com/3DSGuy/Project_CTR/releases/tag/makerom-v0.18.3)
 - [`bannertool`](https://github.com/Steveice10/bannertool/releases/tag/1.2.0)
-
+- `make`
 ## Building
 1. Modify the contents of the Metadata in the [`Makefile`](Makefile)
 ``` make
@@ -36,7 +36,9 @@ BasicInfo:
 > **Warning**
 > If you want 2 of those dummy on your system at the same time, change the `UniqueId` field to something higher
 
-4. Run `make`
+4. Run `make` in a terminal
 5. Install the generated `.cia` file on your 3DS
-6. Go to friend list and set the favorite game
-7. Profit?
+6. Run the application that was added to your home screen (This is necessary so that the app gets added to the list of favoritable applications)
+7. It does not do anything, so just press START or HOME to leave it
+8. Go to friend list and set the favorite game
+9. Profit?
