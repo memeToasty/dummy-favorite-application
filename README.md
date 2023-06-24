@@ -42,3 +42,4 @@ BasicInfo:
 7. It does not do anything, so just press START or HOME to leave it
 8. Go to friend list and set the favorite game
 9. Profit?
+10. Profit!
